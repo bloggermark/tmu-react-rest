@@ -4,7 +4,7 @@ import "./styles.css";
 const SERVER_URL = "https://r7rmr.sse.codesandbox.io/";
 
 export default function App() {
-  const movie = useQueryMovie({ year: 1975 });
+  const movie = useQueryMovie({ year: 1977 });
 
   return (
     <div className="App">
